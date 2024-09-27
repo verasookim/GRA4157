@@ -20,6 +20,8 @@ jobs:
         pip install pylint
         pip install black
         pip install pytest
+        pip install numpy
+        pip install pandas
     - name: Run pytest
       run:  |
         pytest lectures/01-python-summary/lecture-scripts/test_*
