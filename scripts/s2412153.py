@@ -1,3 +1,5 @@
+"""Module providing a function printing python version."""
+
 import pandas as pd
 import numpy as np
 
